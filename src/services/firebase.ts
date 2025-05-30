@@ -6,15 +6,6 @@ import 'firebase/compat/firestore';
 // For demo purposes, we'll use a test configuration
 // In a production app, these values should be in environment variables
 
-// const firebaseConfig = {
-//   apiKey: "AIzaSyC4nj31CgH-bnpScQRg0UEOYHeHzToJJrQ",
-//   authDomain: "react-native-44a53.firebaseapp.com",
-//   projectId: "react-native-44a53",
-//   storageBucket: "react-native-44a53.firebasestorage.app",
-//   messagingSenderId: "699204800987",
-//   appId: "1:699204800987:web:b83f3771276c62ea0a97fe",
-//   measurementId: "G-M1Y7N5TXXY",
-// };
 
 const firebaseConfig = {
   apiKey: "your-api-key",
