@@ -7,8 +7,9 @@
 A React Native application for food ordering with real-time Firebase integration.
 
 <div align="center">
-  <img src="./src/assets/ScreenShots of Application/Food Menu.jpg" alt="App Screenshot" width="200" />
-  <img src="./src/assets/ScreenShots of Application/Order Summary.jpg" alt="App Screenshot" width="200" />
+  <img src="./src/assets/ScreenShots of Application/Food Menu.png" alt="App Screenshot" width="200" />
+  <img src="./src/assets/ScreenShots of Application/Order Summary.png" alt="App Screenshot" width="200" />
+  <img src="./src/assets/ScreenShots of Application/Cart.png" alt="App Screenshot" width="200" />
 </div>
 
 ## 🚀 Features
