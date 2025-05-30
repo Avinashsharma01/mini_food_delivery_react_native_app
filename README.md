@@ -1,8 +1,40 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mini Food Ordering App
 
-# Getting Started
+A React Native application for food ordering with Firebase integration.
+
+## Features
+
+- Browse food items by category
+- Add items to cart with quantity selection
+- Review cart and adjust quantities
+- Place orders with order summary
+- Real-time data fetching from Firebase
+
+## Getting Started
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+
+## Setup Firebase
+
+Before running the app, you need to set up Firebase:
+
+1. Create a Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/)
+2. Enable Firestore Database in the Firebase console
+3. Get your Firebase configuration (apiKey, authDomain, projectId, etc.)
+4. Update the configuration in `src/services/firebase.ts`
+5. Set up Firestore security rules:
+
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read;
+      allow write: if request.auth != null;
+    }
+  }
+}
+```
 
 ## Step 1: Start Metro
 
